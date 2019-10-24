@@ -1,0 +1,34 @@
+{
+  "name": "academic-reference-manager",
+  "version": "1.0.0",
+  "description": "An API project for the course Software Architecture and Implementation",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devalberg/Academic-Reference-Manager.git"
+  },
+  "keywords": [
+    "Academic",
+    "Reference",
+    "Manager"
+  ],
+  "author": "Daníel Ekaphan Valberg, Jóel Snær Garcia, Grétar Örn Hjartarson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devalberg/Academic-Reference-Manager/issues"
+  },
+  "homepage": "https://github.com/devalberg/Academic-Reference-Manager#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.5.23",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.6",
+    "mongoose-type-email": "^1.0.11"
+  }
+}
